@@ -24,7 +24,7 @@ tags_metadata = [
 async def root():
     return {"message": "Bem vindo a Finz-API",
             "Estrutura de consulta":"/TipoAtivo/NomeAtivo",
-            "Opções de ativos":"/fiis, /acoes, /bdrs, /etfs, /etfs-internacional, /criptomoedas, /stocks, /reits, /moedas, /indices",
+            "Opções de Tipos de ativos":"/fiis, /acoes, /bdrs, /etfs, /etfs-internacional, /criptomoedas, /stocks, /reits, /moedas, /indices",
              "Documentação":"/docs" }
 
 @app.get("/fiis/{codigo}", tags=["FIIs"], summary="Obter informações sobre Fundos de Investimento Imobiliário (FIIs)")
