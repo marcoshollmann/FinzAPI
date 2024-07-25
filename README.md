@@ -6,8 +6,22 @@ A Finz-API é uma API criada para fornecer informações atuais sobre diversos t
 - P/L (Preço/Lucro)
 - P/VP (Preço/Valor Patrimonial)
 - Dividend Yield
+- 
+## Como Usar
+Basta acessar o link abaixo
+```bash
+finzapi.onrender.com
+```
+Caso queira testar um exemplo com um ativo
+```bash
+finzapi.onrender.com/acoes/itsa4
+```
+Documentação Finz-api (FastAPI)
+```bash
+finzapi.onrender.com/docs
+```
 
-## Como usar
+## Como Usar Localmente
 
 ### Requisitos
 - Python 3.x instalado no seu sistema
@@ -26,6 +40,11 @@ cd finz-api
 ```bash
 pip install -r requirements.txt
 ```
+4. Inicialize a FastAPI:
+```bash
+fastapi dev app.py
+```
+
 
 Use os métodos disponíveis para obter informações sobre os ativos financeiros desejados. Cada método corresponde a um tipo de ativo:
 
